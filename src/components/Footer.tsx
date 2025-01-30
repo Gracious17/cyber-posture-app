@@ -1,7 +1,5 @@
 import React from "react";
 import GradButton from "../components/buttons/GradButton";
-import Image from "next/image";
-import footerImg from "../../public/Cyberposture in footer.png";
 import FooterImage from "./FooterImage";
 const Footer = () => {
   return (
