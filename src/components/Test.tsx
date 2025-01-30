@@ -21,6 +21,7 @@ const Test = () => {
       {/*  Main Content  */}
       <div className="z-10 text-center">
         {/*  Glowing Text  */}
+        <p>let&apos;s help you stay</p>
         <h1 className="text-9xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-white to-white/100 tracking-wide ">
           {/* {heroText} */}
           Secured.

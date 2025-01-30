@@ -62,6 +62,8 @@ export default {
         rgba(10,10,10,0)100%,#0a0a0a )
         
         `,
+        //  clients box background
+        "client-box": "linear-gradient(rgba(34,34,34,1),rgba(34,34,34,1))",
         // background grid pattern lines
         "grid-pattern": `linear-gradient(to right,rgba(255,255,255,0.1)0px,transparent 1px),
         linear-gradient(to bottom, rgba(255,255,255,0.1)0px, transparent 2px)
