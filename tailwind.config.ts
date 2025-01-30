@@ -69,7 +69,7 @@ export default {
         linear-gradient(to bottom, rgba(255,255,255,0.1)0px, transparent 2px)
         `,
         // colorful glowing bg
-        "radial-glow": `radial-gradient( 35.5% 15.49% at 50% 40.95%, rgba(18,213,245,0.61)0%, 
+        "radial-glow": `radial-gradient( 45.5% 15.49% at 50% 40.95%, rgba(18,213,245,0.61)0%, 
         rgba(67,133,243,0.41)10%,
         rgba(0,0,0,0)100%
         )`,

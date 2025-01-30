@@ -15,7 +15,7 @@ const Footer = () => {
         {/* btn  component*/}
         <GradButton />
       </div>
-      <div className="w-full flex   h-[100px]">
+      <div className="absolute bottom-0 w-full">
         <FooterImage />
       </div>
     </div>

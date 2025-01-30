@@ -4,7 +4,7 @@ import nameLogo from "../../public/Layer_1.png";
 import GradButton from "./buttons/GradButton";
 const Navbar = () => {
   return (
-    <div className="h-12 bg-custom-gradient text-white">
+    <div className="h-14 bg-custom-gradient text-white">
       <div className="flex justify-around items-center pt-3">
         <Image
           src={nameLogo}
@@ -14,12 +14,20 @@ const Navbar = () => {
           className="pt-2 text-white"
         />
 
-        <ul className="flex flex-row  gap-2 text-[10px] font-thin">
-          <li className="">Services</li>
-          <li>About</li>
-          <li>Contact us</li>
+        <ul className="flex flex-row  gap-3 text-[10px] font-semibold">
+          <li className="hover:bg-radial-glow  p-2 rounded-full cursor-pointer">
+            Services
+          </li>
+          <li className="hover:bg-radial-glow  p-2 rounded-full cursor-pointer ">
+            About
+          </li>
+          <li className="hover:bg-radial-glow  p-2 rounded-full cursor-pointer ">
+            Contact us
+          </li>
         </ul>
-        <GradButton />
+        <div className="hidden  md:flex">
+          <GradButton />
+        </div>
       </div>
     </div>
   );
