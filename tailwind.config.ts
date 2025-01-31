@@ -17,7 +17,7 @@ export default {
         "box-border": "rgba(41,43,61,1)",
       },
       colors: {
-        dark: "#000000 ", // 0a0f21backgroundColor
+        dark: " #0a0f21 ", //  #000000 0a0f21backgroundColor
         customBlue: "rgba(125,189,248,1)",
       },
       animation: {
@@ -55,9 +55,9 @@ export default {
           " linear-gradient(90deg,rgba(54,55,160,1),rgba(9,198,222,1),rgba(70,3,137,1))",
         // glowing dark bg
         "glowing-dark": `radial-gradient(95.5% 70.49% at 50% 40.95%,  
-        rgba(10,10,10,0.9)0%, 
+        rgba(255,255,255,0.1)0%, 
         rgba(10,10,10,0.4)20%, 
-        rgba(10,10,10,0)100%,#0a0a0a )
+        rgba(0,0,0,0.3)100%,#0a0a0a )
         
         `,
         //  clients box background
@@ -75,6 +75,11 @@ export default {
         "lit-bg": `radial-gradient( 50.7% 50.49% at 50% 40.85%, rgba(18,213,245,0.61)8%, 
          rgba(0,0,2,50.1)35%,
          rgba(0,0,0,0.5)60%,
+         rgba(0,0,0,0.5)100%
+         )`,
+        "footer-glow": `radial-gradient( 50.7% 50.39% at 50% 10.85%, rgba(18,213,245,0.61)8%, 
+         rgba(0,0,2,50.1)35%,
+         rgba(0,0,0,0.5)70%,
          rgba(0,0,0,0.5)100%
          )`,
         //  67,133,243,0.41

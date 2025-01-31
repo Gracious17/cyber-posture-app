@@ -6,7 +6,7 @@ import Tools from "./Tools";
 
 const Services = () => {
   return (
-    <div className="relative w-full  flex flex-col items-center justify-center  bg-lit-bg">
+    <div className="relative w-full  flex flex-col items-center justify-center  bg-glowing-dark">
       {/* Add grid pattern and radial glow */}
       <div className="absolute  bg-glowing-dark  ">
         {/* <div className="absolute inset-0 bg-grid-pattern bg-grid-size"></div> */}
@@ -14,7 +14,7 @@ const Services = () => {
 
       {/* section Text  */}
       <div className="items-center justify-center  text-center w-full ">
-        <div>
+        <div className="pt-2">
           <p className="font-normal tracking-widest text-sm  font-sans items-center text-customBlue pb-5">
             CATERING FOR ALL INDUSTRIES
           </p>

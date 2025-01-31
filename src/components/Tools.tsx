@@ -10,7 +10,7 @@ const Tools = () => {
     <div>
       <div className="flex flex-row flex-wrap gap-2">
         {/* 1st Box */}
-        <div className="text-center items-center justify-center w-[150px] h-[200px] bg-box-color border-x-2 border-y-[1px] border-box-border  shadow-lg shadow-white/10 rounded-md">
+        <div className="text-center items-center justify-center w-[150px] h-[200px] bg-box-color border-x-2 border-y-[1px] border-box-border  shadow-lg shadow-white/5 rounded-md">
           <div className="text-center items-center justify-center">
             <Image
               src={procativeImg}
@@ -29,7 +29,7 @@ const Tools = () => {
           </div>
         </div>
         {/* 2nd Box */}
-        <div className="text-center items-center justify-center w-[150px] h-[200px] bg-box-color border-x-2 border-y-[1px] border-box-border  shadow-lg shadow-white/10 rounded-md">
+        <div className="text-center items-center justify-center w-[150px] h-[200px] bg-box-color border-x-2 border-y-[1px] border-box-border  shadow-lg shadow-white/5 rounded-md">
           <div>
             <Image
               src={expertiseImg}
@@ -48,7 +48,7 @@ const Tools = () => {
           </div>
         </div>
         {/* 3rd Box */}
-        <div className="text-center items-center justify-center w-[150px] h-[200px] bg-box-color border-x-2 border-y-[1px] border-box-border  shadow-lg shadow-white/10 rounded-md">
+        <div className="text-center items-center justify-center w-[150px] h-[200px] bg-box-color border-x-2 border-y-[1px] border-box-border  shadow-lg shadow-white/5 rounded-md">
           <div>
             <Image
               src={solutionImg}
@@ -67,7 +67,7 @@ const Tools = () => {
           </div>
         </div>
         {/* 4th Box */}
-        <div className="text-center items-center justify-center w-[170px] h-[200px] bg-box-color border-x-2 border-y-[1px] border-box-border  shadow-lg shadow-white/10 rounded-md">
+        <div className="text-center items-center justify-center w-[170px] h-[200px] bg-box-color border-x-2 border-y-[1px] border-box-border  shadow-lg shadow-white/5 rounded-md">
           <div>
             <Image
               src={commitmentImg}

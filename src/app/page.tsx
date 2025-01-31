@@ -13,7 +13,7 @@ const page = () => {
       <Navbar />
       {/* w-full relative  inset-0 bg-grid-pattern bg-grid-size */}
       {/* absolute bg-black */}
-      <div className=" overflow-hidden relative w-[100vw]  flex flex-col items-center justify-center  bg-grid-pattern bg-grid-size ">
+      <div className=" overflow-hidden relative w-[100vw]  flex flex-col items-center justify-center  bg-grid-pattern bg-grid-size  dark:bg-dark">
         <div className=" absolute inset-0 bg-glowing-dark bg-blend-screen "></div>
 
         <Hero />

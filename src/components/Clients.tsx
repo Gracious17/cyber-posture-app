@@ -3,7 +3,7 @@ import ClientsCards from "./ClientsCards";
 
 const Clients = () => {
   return (
-    <div className="w-full items-center justify-center text-center pt-5">
+    <div className="w-full items-center justify-center text-center pt-5 bg-glowing-dark">
       <div>
         <p className="font-normal tracking-widest text-sm  font-sans items-center text-customBlue pb-5 uppercase">
           What they said about us
