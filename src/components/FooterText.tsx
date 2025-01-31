@@ -83,7 +83,7 @@ const FooterText = () => {
         </ul>
       </div>
       {/* use cases list 3 */}
-      <div className="text-left">
+      <div className="text-left mb-4 sm:mb-0">
         <h2 className="font-semibold text-sm tracking-widest">Use Cases</h2>
         <ul className="flex justify-center gap-2 flex-col text-sm ">
           <li className="hover:underline cursor-pointer">UI design</li>

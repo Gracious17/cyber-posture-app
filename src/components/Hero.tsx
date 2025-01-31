@@ -1,19 +1,10 @@
-"use client";
-// import { setInterval } from "node:timers/promises";
 import React from "react";
 import GradButton from "@/components/buttons/GradButton";
 import BlackButton from "./buttons/BlackButton";
 import HeroHeader from "./HeroHeader";
 const Hero = () => {
-  // const [heroText, setHeroText] = useState("Secured .");
-  // useEffect(() => {
-  //   setInterval(() => {
-  //     return;
-  //     setHeroText("");
-  //   }, 3000);
-  // });
   return (
-    <div className="relative   w-[100vw]  h-[878.13px]   flex items-center justify-center bg-lit-bg ">
+    <div className="relative   w-[100vw]  h-[800px]   flex items-center justify-center bg-lit-bg ">
       {/* Add grid pattern and radial glow */}
       <div className="absolute inset-0 bg-radial-glow ">
         {/* <div className="absolute   "></div> */}

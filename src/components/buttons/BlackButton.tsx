@@ -3,9 +3,11 @@ import React from "react";
 const BlackButton = () => {
   return (
     <>
-      <div className=" px-6 py-2 bg-gradient-to-r from-gray-700  to-gray-900 text-white rounded-[21.08px] shadow-lg hover:from-gray-700 hover:to-gray-900 border-btn-border border-2 ">
-        Get a Quote
-      </div>
+      <button className="relative inline-block p-[2px] rounded-[21.08px] bg-gradient-to-r from-[#09C6DE] to-[#460389] shadow-lg">
+        <span className="block px-6 py-2 text-white bg-black rounded-[18px] font-mono">
+          Get a Quote
+        </span>
+      </button>
     </>
   );
 };

@@ -4,8 +4,8 @@ import FooterImage from "./FooterImage";
 import FooterText from "./FooterText";
 const Footer = () => {
   return (
-    <div className="w-full bg-lit-bg text-white text-center p-5 h-[1200px]">
-      <div className="flex flex-col items-center justify-center gap-4">
+    <div className="w-full bg-lit-bg text-white text-center p-5 h-[800px]">
+      <div className="flex flex-col items-center justify-center gap-4 pt-5">
         <h2 className="font-semibold text-3xl tracking-widest">
           Get started. It&apos;s easy
         </h2>
@@ -19,7 +19,7 @@ const Footer = () => {
       {/* footer contents  */}
       <FooterText />
       {/* footer image cyber posture */}
-      <div className="absolute bottom-0 w-full">
+      <div className="absolute bottom-8 w-full">
         <FooterImage />
       </div>
     </div>

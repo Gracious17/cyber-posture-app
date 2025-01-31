@@ -15,8 +15,6 @@ export default {
     extend: {
       borderColor: {
         "box-border": "rgba(41,43,61,1)",
-        "btn-border":
-          "linear-gradient(90.95deg, #09C6DE 0.81%, #460389 126.33%)",
       },
       colors: {
         dark: "#000000 ", // 0a0f21backgroundColor

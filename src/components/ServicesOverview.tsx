@@ -11,14 +11,16 @@ const ServicesOverview = () => {
           </p>
         </div>
         <div className=" items-center justify-center text-center w-[100%]  ">
-          <h2 className="  text-3xl font-bold">
+          <h2 className="  text-2xl font-bold">
             <span className="bg-[linear-gradient(to_right,rgba(54,55,160,1),rgba(9,198,222,1),rgba(70,3,137,1))]  bg-clip-text text-transparent">
-              We Ensure Your Organizaton Is Protected
+              We Provide Expert CyberSecurity Solutions
             </span>
             <br />
-            Against Evolving Threats And Meets All
+            Tailored To Your Unique Needs, Ensuring
             <br />
-            Regulatory Requirements
+            Compliance And Robust Protection Against
+            <br />
+            Emerging Threats
           </h2>
         </div>
         {/* Y-axis Gliding Boxes */}
