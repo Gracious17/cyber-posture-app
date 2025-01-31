@@ -1,71 +1,71 @@
 import React from "react";
+const cardsData = [
+  {
+    id: 1,
 
+    heading: "Compliance Readiness and Self-Assessments",
+
+    content: `Ensure your organization is prepared to meet the highest standards of cybersecurity compliance. Our readiness assessments identify gaps and provide actionable recommendations `,
+  },
+  {
+    id: 2,
+
+    heading: " Security Architecture and Design  ",
+
+    content: `Build a resilient security infrastructure with our expert guidance. We design security frameworks that integrate seamlessly with your business operations, providing robust protection against threats.
+ `,
+  },
+  {
+    id: 3,
+
+    heading: "Ransomware Susceptibility Assessment",
+
+    content: `Identify vulnerabilities and fortify your defenses against ransomware attacks. Our assessments help you understand your risk and implement effective prevention strategies.
+ `,
+  },
+  {
+    id: 4,
+
+    heading: "Technical Security Standards",
+
+    content: `Adopt industry best practices with our technical security standards services. We help you develop and implement standards that ensure your systems and processes are secure`,
+  },
+  {
+    id: 5,
+
+    heading: "Business Impact Assessment",
+
+    content: `Understand the potential impact of disruptions on your operations. Our assessments provide insights into critical business functions and guide you in developing effective continuity plans.
+`,
+  },
+  {
+    id: 6,
+
+    heading: "Merger And Acquisition Due Diligence",
+
+    content: `Ensure your mergers and acquisitions are secure with our due diligence services. We identify cybersecurity risks and provide recommendations to protect your investments.
+`,
+  },
+];
 const GlideBox = () => {
   return (
-    <div className="h-[300px]  bg-transparent overflow-hidden ">
-      <div className="grid   grid-col-2 sm:grid-cols-3  place-items-center gap-2  md:grid-cols-3 mx-16 animate-glide  overflow-hidden">
-        {/* 1st Box */}
-        <div className=" h-[150px]  bg-black/40 border-x-2 border-y-[1px] border-box-border  shadow-lg shadow-white/10 rounded-lg mb-7">
-          <h3 className=" text-sm mb-2">
-            Compliance Readiness and Self-Assessments
-          </h3>
-          <p className="text-[0.5rem]">
-            Ensure your organization is prepared to meet the highest standards
-            of cybersecurity compliance. Our readiness assessments identify gaps
-            and provide actionable recommendations
-          </p>
-        </div>
-        {/* 2nd Box */}
-        <div className=" mb-7 text-center items-center justify-center h-[150px] bg-black/40 border-x-2 border-y-[1px] border-box-border  shadow-lg shadow-white/10 rounded-lg">
-          <h3 className="mx-2 text-sm mb-2">
-            Security Architecture and Design
-          </h3>
-          <p className="text-[0.5rem]">
-            Build a resilient security infrastructure with our expert guidance.
-            We design security frameworks that integrate seamlessly with your
-            business operations, providing robust protection against threats.
-          </p>
-        </div>
-        {/* 3rd Box */}
-        <div className="mb-7 text-center items-center justify-center  h-[150px] bg-black/40 border-x-2 border-y-[1px] border-box-border  shadow-lg shadow-white/10 rounded-lg">
-          <h3 className="mx-2 text-sm mb-2">
-            Ransomware Susceptibility Assessment
-          </h3>
-          <p className="text-[0.5rem]">
-            Identify vulnerabilities and fortify your defenses against
-            ransomware attacks. Our assessments help you understand your risk
-            and implement effective prevention strategies.
-          </p>
-        </div>
-        {/* 4th Box */}
-        <div className="mb-7 text-center items-center justify-center  h-[150px] bg-black/40 border-x-2 border-y-[1px] border-box-border  shadow-lg shadow-white/10 rounded-lg">
-          <h3 className=" text-[0.8rem] mb-2">Technical Security Standards</h3>
-          <p className="text-[0.5rem]">
-            Adopt industry best practices with our technical security standards
-            services. We help you develop and implement standards that ensure
-            your systems and processes are secure
-          </p>
-        </div>
-        {/* 5th Box */}
-        <div className="mb-7 text-center items-center justify-center  h-[150px] bg-black/40 border-x-2 border-y-[1px] border-box-border  shadow-lg shadow-white/10 rounded-lg">
-          <h3 className=" text-[0.8rem] mb-2">Business Impact Assessment</h3>
-          <p className="text-[0.5rem]">
-            Understand the potential impact of disruptions on your operations.
-            Our assessments provide insights into critical business functions
-            and guide you in developing effective continuity plans.
-          </p>
-        </div>
-        {/* 6th Box */}
-        <div className=" mb-7 text-center items-center justify-center  h-[150px] bg-black/40 border-x-2 border-y-[1px] border-box-border  shadow-lg shadow-white/10 rounded-lg">
-          <h3 className=" text-[0.8rem] mb-2">
-            Merger And Acquisition Due Diligence
-          </h3>
-          <p className="text-[0.5rem]">
-            Ensure your mergers and acquisitions are secure with our due
-            diligence services. We identify cybersecurity risks and provide
-            recommendations to protect your investments.
-          </p>
-        </div>
+    <div className="w-full h-[300px] flex justify-center pt-12 bg-transparent overflow-hidden">
+      {/* cards container */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 justify-center animate-glideY">
+        {/* Card Component */}
+        {cardsData.map((card) => {
+          return (
+            <div
+              key={card.id}
+              className="w-[250px]  h-[150px] bg-black/40 border-x-2 border-y-[1px] border-box-border rounded-lg text-left items-start"
+            >
+              <div className="pt-5 px-3">
+                <h3 className="text-sm mb-2">{card.heading}</h3>
+                <p className="text-[0.5rem]">{card.content}</p>
+              </div>
+            </div>
+          );
+        })}
       </div>
     </div>
   );

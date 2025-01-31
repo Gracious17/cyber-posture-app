@@ -1,6 +1,7 @@
 import React from "react";
 import GradButton from "../components/buttons/GradButton";
 import FooterImage from "./FooterImage";
+import FooterText from "./FooterText";
 const Footer = () => {
   return (
     <div className="w-full bg-lit-bg text-white text-center p-5 h-[1200px]">
@@ -15,6 +16,9 @@ const Footer = () => {
         {/* btn  component*/}
         <GradButton />
       </div>
+      {/* footer contents  */}
+      <FooterText />
+      {/* footer image cyber posture */}
       <div className="absolute bottom-0 w-full">
         <FooterImage />
       </div>
