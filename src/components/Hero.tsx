@@ -12,7 +12,7 @@ const Hero = () => {
       {/*  Main Content  */}
       <div className="z-10 text-center items-center justify-center">
         {/*  Glowing Text  */}
-        <p className="text-3xl uppercase tracking-widest">
+        <p className="text-2xl sm:text-3xl md:text-3xl lg:text-3xl  uppercase tracking-widest">
           let&apos;s help you stay
         </p>
         {/* Hero Header component */}

@@ -8,7 +8,7 @@ import cyber from "../../public/Layer_2.png";
 
 const FooterText = () => {
   return (
-    <div className="w-full justify-between gap-2  flex flex-wrap  text-white text-center mx-auto mt-16">
+    <div className="w-full justify-between gap-2  flex flex-wrap  text-white text-center mx-auto mt-16 sm:mt-20">
       {/* footer social media icons */}
       <div className="ml-2">
         <ul className="flex justify-center gap-5">
