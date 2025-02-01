@@ -17,7 +17,7 @@ const Hero = () => {
         </p>
         {/* Hero Header component */}
         <HeroHeader />
-        <p className="text-white text-lg mt-4 ">
+        <p className="text-white text-lg mt-4 mx-auto">
           Expert Cybersecurity Solutions Tailored to Protect <br /> Your
           Organization from Emerging Threats
         </p>
