@@ -49,7 +49,7 @@ const cardsData = [
 ];
 const GlideBox = () => {
   return (
-    <div className="w-full h-[300px] flex justify-center pt-12 bg-transparent overflow-hidden">
+    <div className="w-full h-[600px] flex justify-center pt-2 bg-transparent overflow-hidden">
       {/* cards container */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 justify-center animate-glideY">
         {/* Card Component */}

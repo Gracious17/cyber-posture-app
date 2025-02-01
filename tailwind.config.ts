@@ -22,7 +22,7 @@ export default {
       },
       animation: {
         glideX: "glideX 10s linear infinite",
-        glideY: "glideY 15s linear infinite",
+        glideY: "glideY 15s 20s linear infinite",
       },
       keyframes: {
         // X-axis box glide Animation
