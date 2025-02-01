@@ -6,7 +6,7 @@ const ServicesOverview = () => {
     <div className="w-full items-center justify-center text-center ">
       <div className="items-center  justify-center  text-center w-full pt-12  pb-6 bg-lit-bg ">
         <div>
-          <p className="font-normal tracking-widest text-sm  font-sans items-center text-customBlue pb-5 uppercase">
+          <p className="font-normal tracking-widest text-sm   items-center text-customBlue pb-5 uppercase">
             What We Offer
           </p>
         </div>

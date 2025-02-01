@@ -46,7 +46,7 @@ const Services = () => {
       <div className="items-center  justify-center  text-center w-full pt-12 ">
         <div>
           {" "}
-          <p className="font-normal tracking-widest text-sm  font-sans items-center text-customBlue pb-5 uppercase">
+          <p className="font-normal tracking-widest text-sm   items-center text-customBlue pb-5 uppercase">
             How We Work
           </p>
         </div>
