@@ -7,7 +7,7 @@ import commitmentImg from "../../public/Frame 20.png";
 
 const Tools = () => {
   return (
-    <div>
+    <>
       <div className="flex flex-row flex-wrap gap-2 items-center justify-items-center text-center ml-3 ">
         {/* 1st Box */}
         <div className="text-center items-center justify-center w-[150px] h-[200px] bg-box-color border-x-2 border-y-[1px] border-box-border  shadow-lg shadow-white/5 rounded-md">
@@ -86,7 +86,7 @@ const Tools = () => {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
