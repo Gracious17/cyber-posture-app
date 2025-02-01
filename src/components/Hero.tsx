@@ -10,7 +10,7 @@ const Hero = () => {
         {/* <div className="absolute   "></div> */}
       </div>
       {/*  Main Content  */}
-      <div className="z-10 text-center ">
+      <div className="z-10 text-center items-center justify-center">
         {/*  Glowing Text  */}
         <p className="text-3xl uppercase tracking-widest">
           let&apos;s help you stay
